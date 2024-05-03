@@ -27,8 +27,8 @@
 
 .navbar {
   .nav-link {
-    padding-right: 1.0rem !important;
-    padding-left: 1.0rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
     color: var(--text-color) !important;
     line-height: $base-line-height;
 
@@ -228,7 +228,7 @@ hr {
   box-shadow: none;
 }
 
-.navbar .navbar-toggler-icon{
+.navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(142,142,147, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
@@ -237,8 +237,8 @@ hr {
  */
 .marker-link a {
   color: var(--text-color);
-  border-bottom: .2em solid var(--link-background-color);
-  box-shadow: inset 0 -.2em 0 var(--link-background-color);
+  border-bottom: 0.2em solid var(--link-background-color);
+  box-shadow: inset 0 -0.2em 0 var(--link-background-color);
   text-decoration: none;
 
   &:hover {
