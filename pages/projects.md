@@ -23,7 +23,7 @@ permalink: /projects/
 <details open>
 <summary>Mobile Application</summary>
 <div class="app-icons">
-    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;">
+    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;">
         <li>
             <img src="../assets/apps/biniq/logo.png" class="rounded" width="50" height="50">
             <a href="https://github.com/agussmkertjhaan/TA-Android/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
@@ -39,7 +39,7 @@ permalink: /projects/
 <details open>
 <summary>Web Application</summary>
 <div class="app-icons">
-    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;">
+    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;">
         <li>
             <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
                 Poy Wallet Web Services</a> is built with
@@ -89,7 +89,7 @@ permalink: /projects/
 <details open>
 <summary>Others</summary>
 <div class="app-icons">
-    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:;">
+    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;">
         <li>
             <a href="https://github.com/agussmkertjhaan/TA-Arduino/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
                 BinIQ IoT</a> is built with 
