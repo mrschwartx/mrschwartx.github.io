@@ -1,0 +1,42 @@
+- company: Dinas Lingkungan Hidup Kabupaten Kuningan
+  date: Oct - Dec 2023
+  title: Research Internship
+  jobdesk: 
+    - Develop model Machine Learning for Waste Classification.
+    - Use Convolutional Neural Network, Xception architecture.
+    - Collect and pre-processing Waste images.
+
+- company: MZS Software House
+  date: Dec 2021 - Oct 2023
+  title: Software Engineer
+  jobdesk: 
+    - Creating, Integration, and Manage Databases (MySQL, MongoDB).
+    - Writing code with Java, PHP.
+    - Work with framework like Spring, Laravel.
+    - Develop Web services like REST, GraphQL.
+    - Integrate with Payment gateway.
+    - Manage and develop Content Management System.
+    - Implemented Test-Driven Development and utilized CI/CD tools.
+  
+- company: CV Bing Elektronik
+  date: Jan 2020 - Aug 2020
+  title: IT Support
+  jobdesk: 
+    - Provided complete IT technical support services and assisted global management teams to ensure efficient business processes.
+    - Provided IT support services to the Application Management Group.
+    - Established process improvement strategies which drove positive changes and resulted in 100% IT incident remedy rate.
+
+- company: PT Astra Honda Motor
+  date: Dec 2017 - Nov 2019
+  title: Maintenance Process Engineer
+  jobdesk:
+    - Responsible for the management of sudden machinery breakdown and liaison between the production team and the machinery manufacturers in oversees countries to solve problems.
+    - Construction all the panels and pass bars in the factory perform efficiency testing to ensure all systems are running at their peak.
+    - Preparing and implementing a plan for material and spare parts consumption for the annual overall repairs.
+    - Establish and maintain the standard operating procedures for maintenance activities.
+
+- company: Axioo Class Program
+  date: Sep 2016 - Nov 2016
+  title: Internship
+  jobdesk:
+    - Provided complete IT technical support services and assisted global management teams to ensure efficient business processes.
