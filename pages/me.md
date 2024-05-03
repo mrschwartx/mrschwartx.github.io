@@ -53,13 +53,6 @@ You can reach me via <a href="{{ site.links.email }}">agussmkertjhaan@gmail.com<
 </details>
 
 <details open>
-<summary>Frameworks</summary>
-<div class="app-icons">
-
-</div>
-</details>
-
-<details open>
 <summary>Other Tools</summary>
 <div class="app-icons">
     <!-- Mobile Dev -->
