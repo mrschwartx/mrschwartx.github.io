@@ -26,66 +26,59 @@ permalink: /projects/
     <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;">
         <li>
             <img src="../assets/apps/biniq/logo.png" class="rounded" width="50" height="50">
-            <a href="https://github.com/agussmkertjhaan/TA-Android/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                BinIQ is built with
-            </a> 
-            <span class="text-muted">Kotlin, Android, Compose, Firebase</span>
+            <a href="https://github.com/agussmkertjhaan/TA-Android/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                BinIQ is built with</a> 
+            <span class="text-muted">  Kotlin, Android, Compose, Firebase</span>
         </li>
     </ul>
 </div>
 </details>
+
+<hr>
 
 <details open>
 <summary>Web Application</summary>
 <div class="app-icons">
     <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;">
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                Poy Wallet Web Services is built with
-            </a>
-            <span class="text-muted">Kotlin, Spring, Postgres</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                Poy Wallet Web Services is built with</a>
+            <span class="text-muted"> Kotlin, Spring, Postgres</span>
         </li>
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                Vaccine Partner is built with
-            </a>
-            <span class="text-muted">Go, Gin, MySQL, JavaScript, Reactjs</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                Vaccine Partner is built with</a>
+            <span class="text-muted"> Go, Gin, MySQL, JavaScript, Reactjs</span>
         </li>
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                Pertiwi AMS is built with
-            </a>
-            <span class="text-muted">PHP, Laravel, MySQL</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                Pertiwi AMS is built with</a>
+            <span class="text-muted"> PHP, Laravel, MySQL</span>
         </li>
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                CBT is built with
-            </a>
-            <span class="text-muted">PHP, Laravel, MySQL</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                CBT is built with</a>
+            <span class="text-muted"> PHP, Laravel, MySQL</span>
         </li>
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                Permata HMS is built with
-            </a>
-            <span class="text-muted">PHP, Laravel, MySQL</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                Permata HMS is built with</a>
+            <span class="text-muted"> PHP, Laravel, MySQL</span>
         </li>
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                Crowdfunding is built with
-            </a>
-            <span class="text-muted">Go, Gin, Postgres</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                Crowdfunding is built with</a>
+            <span class="text-muted"> Go, Gin, Postgres</span>
         </li>
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                MZS CBT is built with
-            </a>
-            <span class="text-muted">PHP, Laravel, MySQL</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                MZS CBT is built with</a>
+            <span class="text-muted"> PHP, Laravel, MySQL</span>
         </li>
         <li>
-            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                Fos Motor is built with
-            </a>
-            <span class="text-muted">PHP, Laravel, MySQL</span>
+            <a href="https://agussmkertjhaan.github.io/projects/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                Fos Motor is built with</a>
+            <span class="text-muted"> PHP, Laravel, MySQL</span>
         </li>
     </ul>
 </div>
@@ -96,20 +89,18 @@ permalink: /projects/
 <details open>
 <summary>Others</summary>
 <div class="app-icons">
-    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;">
+    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:;">
         <li>
-            <a href="https://github.com/agussmkertjhaan/TA-Arduino/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                BinIQ IoT is built with
-            </a> 
-            <span class="text-muted">C++, Arduino, Firebase</span>
+            <a href="https://github.com/agussmkertjhaan/TA-Arduino/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                BinIQ IoT is built with</a> 
+            <span class="text-muted"> C++, Arduino, Firebase</span>
         </li>
     </ul>
-    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;">
+    <ul style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;">
         <li>
-            <a href="https://github.com/agussmkertjhaan/TA-ML/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:0;" target="_blank">
-                Waste Classification is built with
-            </a> 
-            <span class="text-muted">Python, TensorFlow, CNN</span>
+            <a href="https://github.com/agussmkertjhaan/TA-ML/" style="list-style:none;margin-left:0;margin-top:0;margin-bottom:5;" target="_blank">
+                Waste Classification is built with</a> 
+            <span class="text-muted"> Python, TensorFlow, CNN</span>
         </li>
     </ul>
 </div>
