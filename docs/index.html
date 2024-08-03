@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEV - AGUSSMKERT</title>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+      }
+      .text {
+        font-size: 24px;
+        margin: 10px;
+      }
+      .strikethrough {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="countdown-container">
+      <h2 class="text">DEV - DOCS</h2>
+      <p class="text">
+        Will be redirected to
+        <a href="https://agussmkert.my.id" id="redirect-link"
+          >https://agussmkert.my.id</a
+        >
+      </p>
+      <p class="text">In <span id="countdown">20</span> seconds</p>
+    </div>
+
+    <script>
+      let countdownTime = 20;
+      const countdownElement = document.getElementById("countdown");
+      const redirectLink = document.getElementById("redirect-link").href;
+      const countdownContainer = document.getElementById("countdown-container");
+
+      const interval = setInterval(() => {
+        countdownTime--;
+        countdownElement.textContent = countdownTime;
+
+        if (countdownTime <= 0) {
+          clearInterval(interval);
+          window.location.href = redirectLink;
+        }
+      }, 1000);
+
+      countdownContainer.addEventListener("click", () => {
+        clearInterval(interval);
+        countdownElement.classList.add("strikethrough");
+      });
+    </script>
+  </body>
+</html>
