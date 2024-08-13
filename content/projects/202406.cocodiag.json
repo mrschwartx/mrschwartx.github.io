@@ -1,0 +1,10 @@
+{
+  "id": 8,
+  "name": "Cocodiag",
+  "url": "https://github.com/agussmkertjhaan/CocoDiag",
+  "tech": "Kotlin, Android, Firebase, Machine Learning",
+  "description": "Discover, Diagnose and Share Experience",
+  "thumbnail": "/projects/cocodiag.png",
+  "status": "WIP",
+  "opensource": true
+}

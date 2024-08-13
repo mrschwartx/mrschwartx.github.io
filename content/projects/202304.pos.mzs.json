@@ -1,0 +1,10 @@
+{
+  "id": 4,
+  "name": "MZS Point of Sales",
+  "url": "https://mzs.pos.com",
+  "tech": "PHP, Laravel, MySQL",
+  "description": "Point of Sales Website",
+  "thumbnail": "",
+  "status": "Active",
+  "opensource": false
+}
