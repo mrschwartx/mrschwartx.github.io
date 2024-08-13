@@ -24,9 +24,9 @@ useSeoMeta({
 });
 
 </script>
-<style>
+<!-- <style>
 .prose h2 a,
 .prose h3 a {
   @apply no-underline;
 }
-</style>
+</style> -->
