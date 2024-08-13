@@ -24,6 +24,13 @@ const items = [
     name: "Terminal",
     path: "https://terminal.agussmkert.my.id",
     icon: "solar:code-square-linear",
+    target: "_blank",
+  },
+  {
+    name: "Resume",
+    path: "/resume.pdf",
+    icon: "solar:document-linear",
+    target: "_blank",
   },
 ];
 </script>
@@ -41,6 +48,7 @@ const items = [
           >
             <ULink
               :to="item.path"
+              :target="item.target || '_self'"
               class="relative px-3 py-4 flex items-center justify-center transition hover:text-primary-500 dark:hover:text-primary-400"
               active-class="text-primary-600 dark:text-primary-400"
             >
