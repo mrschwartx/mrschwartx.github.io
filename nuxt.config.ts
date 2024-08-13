@@ -2,12 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  publicRuntimeConfig: {
-    baseUrl: 'https://agussmkertjhaan.github.io/',
-  },
-  router: {
-    base: '/agussmkertjhaan.github.io/',
-  },
   target: 'static',
   ssr: false,
   modules: [
