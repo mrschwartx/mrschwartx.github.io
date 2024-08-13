@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
-  devtools: { enabled: true },
-  target: 'static',
-  ssr: false,
+  devtools: { enabled: false },
+  // target: 'static',
+  // ssr: false,
   modules: [
     "@nuxt/ui",
     "nuxt-icon",
