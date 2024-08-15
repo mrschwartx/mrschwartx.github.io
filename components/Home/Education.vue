@@ -1,8 +1,69 @@
+<script lang="ts" setup>
+import { defineProps, ref } from "vue";
+
+interface Education {
+  name: string;
+  major: string;
+  duration: string;
+  description: string;
+  url: string;
+}
+
+const educationList = ref<Education[]>([
+  {
+    name: "Universitas Islam Al-Ihya Kuningan",
+    major: "Informatics ( S.Kom ) - GPA. 3.88",
+    duration: "Sep 2020 - Jun 2024",
+    description:
+      "Thesis: Development of Prototype Automatic Waste Classification System based on Robotics with Machine Learning.",
+    url: "https://unisa.ac.id/",
+  },
+  {
+    name: "SMK Pertiwi Kuningan",
+    major: "Computer and Network Engineering",
+    duration: "Jul 2014 - Jun 2017",
+    description:
+      "Final Project: IoT-based Smart School System: Design and Implementation",
+    url: "https://smkpertiwikng.sch.id/",
+  },
+]);
+
+interface Courses {
+  name: string;
+  topic: string;
+  duration: string;
+  description: string;
+  url: string;
+}
+
+const coursesList = ref<Courses[]>([
+  {
+    name: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
+    topic: "Mobile Development (Android)",
+    duration: "Feb - Jun 2024",
+    description: "",
+    url: "https://www.linkedin.com/in/agussmkertjhaan/overlay/1721348400634/single-media-viewer/?profileId=ACoAAE4xVIMB8b4IGFeW4n8NzvroB8pPFigrlHY",
+  },
+  {
+    name: "Dicoding Indonesia",
+    topic: "Backend Development (NodeJS)",
+    duration: "Jan - Sep 2023",
+    description: "",
+    url: "https://www.dicoding.com/certificates/GRX5220VVX0M",
+  },
+  {
+    name: "Digital Talent Scholarship - Kominfo",
+    topic: "Scalable Web Services with Go",
+    duration: "Feb - Jun 2022",
+    description: "",
+    url: "https://digitalent.kominfo.go.id/cek-sertifikat#",
+  },
+]);
+</script>
+
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mt-12 mb-6">
-      Educations
-    </h2>
+    <h2 class="section-title">Educations</h2>
     <ul class="space-y-4">
       <li v-for="item in educationList" :key="item.url">
         <NuxtLink
@@ -76,67 +137,16 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-import { defineProps, ref } from "vue";
-
-interface Education {
-  name: string;
-  major: string;
-  duration: string;
-  description: string;
-  url: string;
+<style scoped>
+ul {
+  list-style-type: none;
 }
 
-const educationList = ref<Education[]>([
-  {
-    name: "Universitas Islam Al-Ihya Kuningan",
-    major: "Informatics ( S.Kom ) - GPA. 3.88",
-    duration: "Sep 2020 - Jun 2024",
-    description:
-      "Thesis: Development of Prototype Automatic Waste Classification System based on Robotics with Machine Learning.",
-    url: "https://unisa.ac.id/",
-  },
-  {
-    name: "SMK Pertiwi Kuningan",
-    major: "Computer and Network Engineering",
-    duration: "Jul 2014 - Jun 2017",
-    description:
-      "Final Project: IoT-based Smart School System: Design and Implementation",
-    url: "https://smkpertiwikng.sch.id/",
-  },
-]);
-
-interface Courses {
-  name: string;
-  topic: string;
-  duration: string;
-  description: string;
-  url: string;
+.section-title {
+  text-transform: uppercase;
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 600; /* font-semibold */
+  color: #9ca3af; /* text-gray-400 */
+  margin-bottom: 1.5rem; /* mb-6 */
 }
-
-const coursesList = ref<Courses[]>([
-  {
-    name: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
-    topic: "Mobile Development (Android)",
-    duration: "Feb - Jun 2024",
-    description: "",
-    url: "https://www.linkedin.com/in/agussmkertjhaan/overlay/1721348400634/single-media-viewer/?profileId=ACoAAE4xVIMB8b4IGFeW4n8NzvroB8pPFigrlHY",
-  },
-  {
-    name: "Dicoding Indonesia",
-    topic: "Backend Development (NodeJS)",
-    duration: "Jan - Sep 2023",
-    description: "",
-    url: "https://www.dicoding.com/certificates/GRX5220VVX0M",
-  },
-  {
-    name: "Digital Talent Scholarship - Kominfo",
-    topic: "Scalable Web Services with Go",
-    duration: "Feb - Jun 2022",
-    description: "",
-    url: "https://digitalent.kominfo.go.id/cek-sertifikat#",
-  },
-]);
-</script>
-
-<style scoped></style>
+</style>

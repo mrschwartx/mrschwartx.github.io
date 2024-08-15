@@ -9,6 +9,11 @@ const description =
 
 const bookmarks = [
   {
+    id: 2,
+    label: "DevOps Roadmap for 2024",
+    url: "https://github.com/milanm/DevOps-Roadmap",
+  },
+  {
     id: 1,
     label: "Zooper a beautiful and minimal portfolio site made with Nuxt 3",
     url: "https://github.com/fayazara/zooper",

@@ -1,8 +1,7 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mt-12 mb-6">
-      Related Experiences
-    </h2>
+    <h2 class="section-title">Related Experiences</h2>
+
     <ul class="space-y-4">
       <li v-for="item in experienceList" :key="item.company">
         <div class="flex flex-1 justify-between">
@@ -72,5 +71,13 @@ const experienceList = ref<Experience[]>([
 <style scoped>
 ul {
   list-style-type: none;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 600; /* font-semibold */
+  color: #9ca3af; /* text-gray-400 */
+  margin-bottom: 1.5rem; /* mb-6 */
 }
 </style>

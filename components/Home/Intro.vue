@@ -1,5 +1,5 @@
 <script setup>
-import Experiences from './Experiences.vue';
+import Experiences from "./Experiences.vue";
 
 useSeoMeta({
   title: "Home | agussmkert",
@@ -42,15 +42,5 @@ useSeoMeta({
         >LinkedIn</a
       >.
     </p>
-    <p class="text-gray-900 dark:text-gray-400" style="text-align: justify">
-      Currently🌱building BinIQ application and reading book of
-      <i>Refactoring: Improving the design of existing code</i> by Martin Fowler
-      with Kent Beck.
-    </p>
-    <p class="text-gray-900 dark:text-gray-400 pt-3" style="text-align: justify">
-      <HomeTechIcon />
-    </p>
-    <Experiences />
-    <HomeEducation />
   </div>
 </template>

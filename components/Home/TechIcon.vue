@@ -5,40 +5,39 @@ import { othersTechIcons } from "@/assets/othersTechIcons";
 </script>
 
 <template>
-  <!-- Primary Tech Section -->
-  <h2 class="section-title">Primary Technologies I Have Used</h2>
-  <div class="svg-container">
-    <div
-      v-for="icon in primaryTechIcon"
-      :key="icon.id"
-      class="icon"
-      v-html="icon.svg"
-      :aria-label="icon.name"
-    />
-  </div>
+  <div>
+    <h2 class="section-title">Technologies I Have Used</h2>
+    <div class="svg-container text-gray-900 dark:text-gray-400">
+      <div
+        v-for="icon in primaryTechIcon"
+        :key="icon.id"
+        class="icon"
+        v-html="icon.svg"
+        :aria-label="icon.name"
+      />
+    </div>
 
-  <!-- Secondary Tech Section -->
-  <h2 class="section-title mt-6">Secondary</h2>
-  <div class="svg-container">
-    <div
-      v-for="icon in secondaryTechIcon"
-      :key="icon.id"
-      class="icon"
-      v-html="icon.svg"
-      :aria-label="icon.name"
-    />
-  </div>
+    <p class="text-gray-500 dark:text-gray-300 text-xs my-6">Secondary</p>
+    <div class="svg-container">
+      <div
+        v-for="icon in secondaryTechIcon"
+        :key="icon.id"
+        class="icon"
+        v-html="icon.svg"
+        :aria-label="icon.name"
+      />
+    </div>
 
-  <!-- Others Tech Section -->
-  <h2 class="section-title mt-6">OTHERS</h2>
-  <div class="svg-container">
-    <div
-      v-for="icon in othersTechIcons"
-      :key="icon.id"
-      class="icon"
-      v-html="icon.svg"
-      :aria-label="icon.name"
-    />
+    <p class="text-gray-500 dark:text-gray-300 text-xs my-6">Others</p>
+    <div class="svg-container">
+      <div
+        v-for="icon in othersTechIcons"
+        :key="icon.id"
+        class="icon"
+        v-html="icon.svg"
+        :aria-label="icon.name"
+      />
+    </div>
   </div>
 </template>
 
