@@ -18,7 +18,7 @@ import { othersTechIcons } from "@/assets/othersTechIcons";
     </div>
 
     <p class="text-gray-500 dark:text-gray-300 text-xs my-6">Secondary</p>
-    <div class="svg-container">
+    <div class="svg-container text-gray-900 dark:text-gray-400">
       <div
         v-for="icon in secondaryTechIcon"
         :key="icon.id"
@@ -29,7 +29,7 @@ import { othersTechIcons } from "@/assets/othersTechIcons";
     </div>
 
     <p class="text-gray-500 dark:text-gray-300 text-xs my-6">Others</p>
-    <div class="svg-container">
+    <div class="svg-container text-gray-900 dark:text-gray-400">
       <div
         v-for="icon in othersTechIcons"
         :key="icon.id"

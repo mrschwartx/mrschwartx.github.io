@@ -2,7 +2,8 @@
   <div>
     <h2 class="section-title">Latest Activity</h2>
     <p class="text-gray-900 dark:text-gray-400" style="text-align: justify">
-      Build Monitoring & Observability Apps. Learn DevOps on
+      Build Learning Management System (LMS). Monitoring & Observability Apps.
+      Learn DevOps on
       <a
         href="https://sanbercode.com/"
         class="underline hover:underline hover:text-cyan-500"

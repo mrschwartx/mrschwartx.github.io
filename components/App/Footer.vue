@@ -10,7 +10,7 @@ export default {
 
 <template>
   <footer
-    class="max-w-2xl mx-auto text-gray-400 dark:text-gray-600 text-sm pb-8"
+    class="max-w-2xl mx-auto text-gray-400 dark:text-gray-600 text-sm pb-8 px-4"
   >
     <div class="flex justify-between">
       <p class="text-left">
