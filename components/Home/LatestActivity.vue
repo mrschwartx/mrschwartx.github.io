@@ -14,7 +14,14 @@
         >How to Create World-Class Agility, Reliability, and Security in
         Technology Organization</i
       >
-      by Gene Kim, Patrick Debois, John Willis, Jez Humble.
+      by Gene Kim, Patrick Debois, John Willis, Jez Humble. 
+      <a
+        href="https://sanbercode.com/"
+        class="underline hover:underline hover:text-cyan-500"
+        target="_blank"
+        >Systems Performance: Enterprise and the Cloud, 2nd Edition (2020)</a
+      >
+      by Brendan Gregg.
     </p>
   </div>
 </template>
