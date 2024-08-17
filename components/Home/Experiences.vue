@@ -42,16 +42,16 @@ interface Experience {
 }
 
 const experienceList = ref<Experience[]>([
-  {
-    company: "Hand Solutions Indonesia",
-    title: "Monitoring Engineer",
-    duration: "Aug 2024 - Present",
-    description: [
-      "Mainly responsible for the data analysis of background warnings for the customer team, and reporting problems in a timely manner.",
-      "Monitor relevant systems, initially analyze relevant data, notify the business in a timely manner, and assist the business in making changes to customer needs.",
-      "Comprehensively monitor the operation of existing systems, collect and organize data, and assist technology in secondary development of the system.",
-    ],
-  },
+  // {
+  //   company: "Hand Solutions Indonesia",
+  //   title: "Monitoring Engineer",
+  //   duration: "Aug 2024 - Present",
+  //   description: [
+  //     "Mainly responsible for the data analysis of background warnings for the customer team, and reporting problems in a timely manner.",
+  //     "Monitor relevant systems, initially analyze relevant data, notify the business in a timely manner, and assist the business in making changes to customer needs.",
+  //     "Comprehensively monitor the operation of existing systems, collect and organize data, and assist technology in secondary development of the system.",
+  //   ],
+  // },
   {
     company: "MZS Software House",
     title: "Software Engineer (Web)",
