@@ -9,6 +9,11 @@ const description =
 
 const bookmarks = [
   {
+    id: 3,
+    label: "開篇詞 時光之鏡：透視過去、現在與未來的 Observability",
+    url: "https://ithelp.ithome.com.tw/articles/10319053",
+  },
+  {
     id: 2,
     label: "DevOps Roadmap for 2024",
     url: "https://github.com/milanm/DevOps-Roadmap",
