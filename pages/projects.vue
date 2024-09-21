@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  title: "Projects | agussmkert",
+  title: "Projects | Agus Syahril Mubarok",
   description,
 });
 

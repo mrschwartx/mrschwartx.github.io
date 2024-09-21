@@ -18,7 +18,7 @@ defineProps({
     >
       {{ title }} /on
       <a
-        href="https://medium.com/@agussmkertjhaan"
+        href="https://medium.com/@agussyahrilmubarok"
         class="hover:underline hover:text-cyan-500"
         target="_blank"
         rel="noopener noreferrer"

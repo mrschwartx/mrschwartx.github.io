@@ -24,7 +24,7 @@ export default {
         >.
       </p>
       <a
-        href="https://github.com/agussmkertjhaan"
+        href="https://github.com/mrschwartx"
         class="text-right"
         target="_blank"
         rel="noopener noreferrer"

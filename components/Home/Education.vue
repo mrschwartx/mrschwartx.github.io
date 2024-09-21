@@ -42,7 +42,7 @@ const coursesList = ref<Courses[]>([
     topic: "Mobile Development (Android)",
     duration: "Feb - Jun 2024",
     description: "",
-    url: "https://www.linkedin.com/in/agussmkertjhaan/overlay/1721348400634/single-media-viewer/?profileId=ACoAAE4xVIMB8b4IGFeW4n8NzvroB8pPFigrlHY",
+    url: "https://www.linkedin.com/in/agussyahrilmubarok/overlay/1721348400634/single-media-viewer/?profileId=ACoAAE4xVIMB8b4IGFeW4n8NzvroB8pPFigrlHY",
   },
   {
     name: "Dicoding Indonesia",

@@ -2,7 +2,7 @@
 import Experiences from "./Experiences.vue";
 
 useSeoMeta({
-  title: "Home | agussmkert",
+  title: "Home | Agus Syahril Mubarok",
   description: "I'm Agus a software engineer based in Jakarta, Indonesia",
 });
 </script>
@@ -23,19 +23,18 @@ useSeoMeta({
     </p>
     <p class="text-gray-900 dark:text-gray-400" style="text-align: justify">
       As a <b>software engineer</b> focused on building high-quality
-      application, I motivated to learn something new technology, then put
-      special effort into optimizing my code and providing the best user
-      experience. My goal is to always build applications that are scalable and
-      efficient. When I&apos;m not in front of a computer screen, I&apos;m
-      probably cycling, swimming or something. You can reach me out via
+      application and make sure it work in production. I motivated to learn something new technology, 
+      then put special effort into optimizing my code and providing the best user
+      experience. When I&apos;m not in front of a computer screen, I&apos;m
+      probably cycling, swimming or something. Than you can reach me out with send message on
       <a
-        href="mailto:agussmkertjhaaan@example.com"
+        href="mailto:agussyahrilmubarok@example.com"
         class="underline hover:underline hover:text-cyan-500"
-        >agussmkertjhaaan@gmail.com</a
+        >agussyahrilmubarok@gmail.com</a
       >
       or on
       <a
-        href="https://www.linkedin.com/in/agussmkertjhaaan"
+        href="https://www.linkedin.com/in/agussyahrilmubarok"
         class="underline hover:underline hover:text-cyan-500"
         target="_blank"
         rel="noopener noreferrer"

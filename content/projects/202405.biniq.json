@@ -1,7 +1,7 @@
 {
   "id": 7,
   "name": "BinIQ",
-  "url": "https://github.com/agussmkertjhaan/TA",
+  "url": "https://github.com/mrschwartx/TA",
   "tech": "Machine Learning, TensorFlow, Arduino, ESP32, Kotlin, Android",
   "description": "Prototype Development of an Automated Waste Classification System.",
   "thumbnail": "/projects/biniq.png",

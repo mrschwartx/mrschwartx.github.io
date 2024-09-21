@@ -22,7 +22,7 @@ const items = [
   },
   {
     name: "Terminal",
-    path: "https://terminal.agussmkert.my.id",
+    path: "https://terminal.agussyahrilmubarok.com",
     icon: "solar:code-square-linear",
     target: "_blank",
   },
