@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
   ],
   app: {
+    baseURL: "mrschwartx.github.io",
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       htmlAttrs: {
