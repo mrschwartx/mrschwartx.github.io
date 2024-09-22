@@ -1,0 +1,10 @@
+{
+  "id": 3,
+  "name": "MZS Permata Hospital",
+  "url": "https://permatekuningan.com",
+  "tech": "PHP, Laravel, MySQL",
+  "description": "Hospital Management System of Permata Hospital",
+  "thumbnail": "",
+  "status": "Dead",
+  "opensource": false
+}
