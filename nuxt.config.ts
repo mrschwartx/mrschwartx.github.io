@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
   ],
   app: {
-    baseURL: "mrschwartx.github.io",
+    baseURL: "/",
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       htmlAttrs: {
@@ -27,5 +27,6 @@ export default defineNuxtConfig({
   },
   nitro: {
     preset: 'static'
-  }
+  },
+  ssr: false,
 })
