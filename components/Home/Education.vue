@@ -67,7 +67,7 @@ const coursesList = ref<Courses[]>([
     <ul class="space-y-4">
       <li v-for="item in educationList" :key="item.url">
         <NuxtLink
-          class="flex items-start gap-4 group rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+          class="flex items-start gap-4 group rounded-lg mt-5 hover:bg-gray-100 dark:hover:bg-gray-700"
           :to="item.url"
           target="_blank"
           rel="noopener noreferrer"
@@ -83,7 +83,7 @@ const coursesList = ref<Courses[]>([
               {{ item.major }}
             </p>
             <p
-              class="text-gray-600 dark:text-gray-400 text-sm mt-2"
+              class="text-gray-600 dark:text-gray-400 text-xs mt-1"
               style="text-align: justify"
             >
               {{ item.description }}
