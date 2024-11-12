@@ -50,6 +50,14 @@ const experienceList = ref<Experience[]>([
   //   ],
   // },
   {
+    company: "Hand Solutions Indonesia",
+    title: "Software Engineer",
+    duration: "Sep 2024 - Present",
+    description: [
+      "Mainly responsible for the data analysis of background warnings for the customer team, and reporting issues in a timely manner. Monitor relevant systems, initially analyze relevant data, notify the business promptly, and assist the business in making changes according to customer needs. Comprehensively monitor the operation of existing systems, collect and organize data, and assist the technology team in the secondary development of the system.",
+    ],
+  },
+  {
     company: "MZS Software House",
     title: "Software Engineer (Web)",
     duration: "Dec 2021 - Oct 2023",
