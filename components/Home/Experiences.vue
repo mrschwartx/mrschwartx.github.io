@@ -62,7 +62,7 @@ const experienceList = ref<Experience[]>([
     title: "Software Engineer (Web)",
     duration: "Dec 2021 - Oct 2023",
     description: [
-      "Experienced in creating, integrating, and managing databases, writing code using PHP (Laravel, CodeIgniter), developing web services such as Web and APIs, and integrating payment gateways. Also skilled in managing and developing Content Management Systems (CMS) and Hospital Management Systems (HMS). Implemented Test-Driven Development (TDD) and utilized CI/CD tools for automated testing and deployment.",
+      "I engineered and optimized backend systems and web applications using Golang and PHP frameworks (Laravel, CodeIgniter), while architecting and maintaining microservices-based architectures and RESTful APIs to ensure scalability and performance. I developed and deployed feature-rich web applications with seamless backend integration, and implemented tailored backend solutions to enhance system efficiency and align with strategic business objectives.",
     ],
   },
 ]);

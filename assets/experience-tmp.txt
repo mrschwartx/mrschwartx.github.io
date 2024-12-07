@@ -1,0 +1,9 @@
+RELATED EXPERIENCE
+MZS Software House
+Software Engineer
+December 2021 – October 2023
+
+Engineered and optimized backend systems and web applications using Golang and PHP frameworks (Laravel, CodeIgniter).
+Architected and maintained microservices-based architectures and RESTful APIs to ensure scalability and performance.
+Developed and deployed feature-rich web applications with seamless backend integration.
+Developed and implemented tailored backend solutions to enhance system efficiency and support strategic business objectives.
