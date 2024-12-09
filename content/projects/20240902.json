@@ -3,7 +3,7 @@
   "name": "UNIQLO",
   "url": "https://www.uniqlo.com",
   "tech": "JIRA, Graylog, Prometheus, Grafana, Java, Spring",
-  "description": "Simple Made Better",
+  "description": "Simple Made Better: Ensuring systems consistently deliver optimal performance",
   "thumbnail": "/projects/uniqlo.png",
   "status": "WIP",
   "opensource": false
