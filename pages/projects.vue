@@ -7,7 +7,7 @@ useSeoMeta({
 const projects = ref([]);
 
 const description =
-  "Discover my work across various projects, highlighting my skills and creativity. See how I address challenges and deliver results.";
+  "Explore my diverse projects that showcase my skills, creativity, and problem-solving abilities. Discover how I overcome challenges and deliver impactful results.";
 
 const { data: projectsData } = await useAsyncData("projects-all", () =>
   queryContent("/projects").find()
