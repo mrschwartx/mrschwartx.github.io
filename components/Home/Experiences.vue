@@ -39,30 +39,20 @@ interface Experience {
 }
 
 const experienceList = ref<Experience[]>([
-  // {
-  //   company: "Hand Solutions Indonesia",
-  //   title: "Monitoring Engineer",
-  //   duration: "Aug 2024 - Present",
-  //   description: [
-  //     "Mainly responsible for the data analysis of background warnings for the customer team, and reporting problems in a timely manner.",
-  //     "Monitor relevant systems, initially analyze relevant data, notify the business in a timely manner, and assist the business in making changes to customer needs.",
-  //     "Comprehensively monitor the operation of existing systems, collect and organize data, and assist technology in secondary development of the system.",
-  //   ],
-  // },
   {
-    company: "Hand Solutions Indonesia",
+    company: "Hand Enterprise Solutions Indonesia",
     title: "Software Engineer",
     duration: "Sep 2024 - Present",
     description: [
-      "Mainly responsible for the data analysis of background warnings for the customer team, and reporting issues in a timely manner. Monitor relevant systems, initially analyze relevant data, notify the business promptly, and assist the business in making changes according to customer needs. Comprehensively monitor the operation of existing systems, collect and organize data, and assist the technology team in the secondary development of the system.",
+      "Perform in-depth analysis and reporting of system alerts to ensure timely identification and resolution of issues, continuously monitor and optimize system performance to maintain operational excellence, collaborate closely with business teams to align system capabilities with customer requirements, and work with technology teams to implement data-driven improvements and support the development of advanced system features for enhanced functionality and scalability.",
     ],
   },
   {
     company: "MZS Software House",
-    title: "Software Engineer (Web)",
+    title: "Software Engineer",
     duration: "Dec 2021 - Oct 2023",
     description: [
-      "I engineered and optimized backend systems and web applications using Golang and PHP frameworks (Laravel, CodeIgniter), while architecting and maintaining microservices-based architectures and RESTful APIs to ensure scalability and performance. I developed and deployed feature-rich web applications with seamless backend integration, and implemented tailored backend solutions to enhance system efficiency and align with strategic business objectives.",
+      "Designed and optimized scalable backend systems and web applications using Golang and PHP frameworks, developed high-performance microservice architectures and APIs for seamless integration, enhanced user experiences through backend-frontend collaboration, and ensured high-quality software delivery by leading code reviews and fostering adherence to industry best practices.",
     ],
   },
 ]);
