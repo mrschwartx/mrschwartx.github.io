@@ -2,7 +2,8 @@
   <div>
     <h2 class="section-title">Latest Activity</h2>
     <p class="text-gray-900 dark:text-gray-400" style="text-align: justify">
-      🔧 Build Learning Management System (LMS). 🔋 Learn DevOps Course on
+      🔧 Build <a href="https://github.com/go-kratos/kratos/" class="underline hover:underline hover:text-cyan-500"
+        target="_blank">Kratos</a> (Go Microservice Framework). 🔋 Learn DevOps Course on
       <a href="https://sanbercode.com/" class="underline hover:underline hover:text-cyan-500"
         target="_blank">Sanbercode</a>. Read Book🏷️:
       <i>How to Create World-Class Agility, Reliability, and Security in
