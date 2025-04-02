@@ -1,4 +1,5 @@
-name: Build GitHub Pages
+name: Build & Deploy MkDocs to GitHub Pages
+
 on:
   push:
     branches:
@@ -6,27 +7,39 @@ on:
     paths:
       - 'blog/**'
   workflow_dispatch:
+
 permissions:
   contents: write
   pages: write
   id-token: write
- 
+
 jobs:
   build_mkdocs:
     runs-on: ubuntu-latest
- 
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: 3.9
-      - run: pip install \
-            mkdocs-material
-      - run: mkdocs gh-deploy --config-file blog/mkdocs.yml --force
- 
+
+      - name: Install MkDocs Material
+        run: pip install mkdocs-material
+
+      - name: Build MkDocs Site
+        run: mkdocs build --config-file blog/mkdocs.yml
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mkdocs-site
+          path: site  
+
   deploy_mkdocs:
     needs: build_mkdocs
     environment:
@@ -34,16 +47,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+
+      - name: Download built site
+        uses: actions/download-artifact@v4
         with:
-          path: '.'
+          name: mkdocs-site
+          path: site
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_path: site
