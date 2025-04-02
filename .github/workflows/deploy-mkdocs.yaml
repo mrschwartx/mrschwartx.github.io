@@ -24,4 +24,4 @@ jobs:
           pip install mkdocs-material
 
       - name: Deploy MkDocs
-        run: mkdocs gh-deploy --force
+        run: cd blog && mkdocs gh-deploy --force
