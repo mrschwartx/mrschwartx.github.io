@@ -1,35 +1,69 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { createContext, useEffect, useState } from "react";
+import { DefaultTheme, ThemeProvider } from "styled-components";
+import { useTheme } from "./hooks/useTheme";
+import GlobalStyle from "./components/styles/GlobalStyle";
+import Terminal from "./components/Terminal";
+
+export const themeContext = createContext<
+  ((switchTheme: DefaultTheme) => void) | null
+>(null);
 
 function App() {
-  const [count, setCount] = useState(0)
+  // themes
+  const { theme, themeLoaded, setMode } = useTheme();
+  const [selectedTheme, setSelectedTheme] = useState(theme);
+
+  // Disable browser's default behavior
+  // to prevent the page go up when Up Arrow is pressed
+  useEffect(() => {
+    window.addEventListener(
+      "keydown",
+      e => {
+        ["ArrowUp", "ArrowDown"].indexOf(e.code) > -1 && e.preventDefault();
+      },
+      false
+    );
+  }, []);
+
+  useEffect(() => {
+    setSelectedTheme(theme);
+  }, [themeLoaded]);
+
+  // Update meta tag colors when switching themes
+  useEffect(() => {
+    const themeColor = theme.colors?.body;
+
+    const metaThemeColor = document.querySelector("meta[name='theme-color']");
+    const maskIcon = document.querySelector("link[rel='mask-icon']");
+    const metaMsTileColor = document.querySelector(
+      "meta[name='msapplication-TileColor']"
+    );
+
+    metaThemeColor && metaThemeColor.setAttribute("content", themeColor);
+    metaMsTileColor && metaMsTileColor.setAttribute("content", themeColor);
+    maskIcon && maskIcon.setAttribute("color", themeColor);
+  }, [selectedTheme]);
+
+  const themeSwitcher = (switchTheme: DefaultTheme) => {
+    setSelectedTheme(switchTheme);
+    setMode(switchTheme);
+  };
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1 className="sr-only" aria-label="Me">
+        Me
+      </h1>
+      {themeLoaded && (
+        <ThemeProvider theme={selectedTheme}>
+          <GlobalStyle />
+          <themeContext.Provider value={themeSwitcher}>
+            <Terminal />
+          </themeContext.Provider>
+        </ThemeProvider>
+      )}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
