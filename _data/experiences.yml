@@ -1,0 +1,73 @@
+- company: HAND Enterprise Solutions Indonesia
+  date: Sep 2024 - Present
+  title: Software Engineer
+  url: https://www.hand-global.com
+  jobdesk: 
+    - Analyze background warnings, identify potential issues, and report them promptly to ensure timely resolution.
+    - Monitor system performance, conduct initial data analysis, and work with the business team to make adjustments based on customer needs.
+    - Optimize system performance by collecting and analyzing key metrics, and collaborate with the technology team to enhance secondary systems.
+
+- company: Bangkit led by Google, Goto, and Traveloka
+  date: Feb 2024 - Jul 2024
+  title: Android Developer
+  url: https://grow.google/intl/id_id/bangkit
+  jobdesk: 
+    - Proficiency in Android application development using SDK Native.
+    - Ability to design and implement attractive and functional UI/UX.
+    - Deep understanding of the mobile application lifecycle and project management.
+
+- company: MZS Software House
+  date: Dec 2021 - Oct 2023
+  title: Software Engineer (Backend)
+  url: /
+  jobdesk: 
+    - Developed and optimized backend systems using Golang and PHP frameworks (Laravel, CodeIgniter).
+    - Managed and optimized databases to improve query efficiency and system performance.
+    - Wrote clean, efficient, and testable code following software engineering best practices.
+    - Monitored application performance, debugged issues, and resolved backend system errors.
+    - Implemented CI/CD pipelines and automated deployment using Docker, Kubernetes.
+    - Collaborated with cross-functional teams and conducted code reviews.
+
+
+# - company: Dinas Lingkungan Hidup Kabupaten Kuningan
+#   date: Oct - Dec 2023
+#   title: Research Internship
+#   jobdesk: 
+#     - Develop model Machine Learning for Waste Classification.
+#     - Use Convolutional Neural Network, Xception architecture.
+#     - Collect and pre-processing Waste images.
+
+# - company: MZS Software House
+#   date: Dec 2021 - Oct 2023
+#   title: Software Engineer
+#   jobdesk: 
+#     - Creating, Integration, and Manage Databases (MySQL, MongoDB).
+#     - Writing code with Java, PHP.
+#     - Work with framework like Spring, Laravel.
+#     - Develop Web services like REST, GraphQL.
+#     - Integrate with Payment gateway.
+#     - Manage and develop Content Management System.
+#     - Implemented Test-Driven Development and utilized CI/CD tools.
+  
+# - company: CV Bing Elektronik
+#   date: Jan 2020 - Aug 2020
+#   title: IT Support
+#   jobdesk: 
+#     - Provided complete IT technical support services and assisted global management teams to ensure efficient business processes.
+#     - Provided IT support services to the Application Management Group.
+#     - Established process improvement strategies which drove positive changes and resulted in 100% IT incident remedy rate.
+
+# - company: PT Astra Honda Motor
+#   date: Dec 2017 - Nov 2019
+#   title: Maintenance Process Engineer
+#   jobdesk:
+#     - Responsible for the management of sudden machinery breakdown and liaison between the production team and the machinery manufacturers in oversees countries to solve problems.
+#     - Construction all the panels and pass bars in the factory perform efficiency testing to ensure all systems are running at their peak.
+#     - Preparing and implementing a plan for material and spare parts consumption for the annual overall repairs.
+#     - Establish and maintain the standard operating procedures for maintenance activities.
+
+# - company: Axioo Class Program
+#   date: Sep 2016 - Nov 2016
+#   title: Internship
+#   jobdesk:
+#     - Provided complete IT technical support services and assisted global management teams to ensure efficient business processes.
