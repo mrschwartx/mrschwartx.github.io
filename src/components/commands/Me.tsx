@@ -50,7 +50,6 @@ const Me: React.FC = () => {
                 margin: "4px",
                 height: "30px",
                 width: "30px",
-                transition: "0.3s",
               }}
               src={`https://cdn.simpleicons.org/${slug}/white`}
               onMouseEnter={e => {
