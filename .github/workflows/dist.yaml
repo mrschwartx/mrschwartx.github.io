@@ -13,8 +13,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages        
-          folder: dist           
+      - name: Move dist to docs
+        run: |
+          rm -rf docs
+          mv dist docs
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Deploy React to GitHub Pages"
+          git push      
