@@ -10,14 +10,7 @@ const Resume: React.FC = () => {
 
   /* ===== check current command makes redirect ===== */
   if (rerender && currentCommand[0] === "resume") {
-    return (
-      <iframe
-        src="/resume.pdf"
-        width="100%"
-        height="600px"
-        title="Resume"
-      />
-    );
+    window.open("/resume.pdf", "_blank");
   }
 
   return <span></span>;
