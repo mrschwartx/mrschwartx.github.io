@@ -15,7 +15,7 @@ image: /assets/about/profile.jpg
 <h4>Hi, there 👋</h4>
 
 {: style="text-align: justify" }
-👨‍💻I'm Agus as <b>software engineer</b> based in Jakarta, Indonesia 🇮🇩. Just a human interested in [Computer Engineering](/), [Machine Learning](/), [Internet of Things](/). As a <b>Software Engineer</b> with a strong background in [software development](/), [system architecture](/), and [cloud computing](/), I have experience in building and [optimizing production-grade applications](/). My focus is on improving development workflows, enhancing system reliability, and automating infrastructure to increase [efficiency](/), [scalability](/), and [performance](/).
+👨‍💻I'm Agus as <b>software engineer</b> based in Jakarta, Indonesia 🇮🇩. Just a human interested in [Computer Engineering](/), [Machine Learning](/), and [Internet of Things](/). As a <b>Software Engineer</b> with a strong background in [software development](/), [system architecture](/), and [cloud computing](/), I have experience in building and [optimizing production-grade applications](/). My focus is on improving development workflows, enhancing system reliability, and automating infrastructure to increase [efficiency](/), [scalability](/), and [performance](/).
 
 {: style="text-align: justify" }
 🌱Build [Kratos (Go Microservice Framework)](https://go-kratos.dev/). 🔋 Learn DevOps Course on [Fast Campus](https://fastcampus.com/id). Read Book🏷️: <i>How to Create World-Class Agility, Reliability, and Security in Technology Organization</i> by Gene Kim, Patrick Debois, John Willis, Jez Humble. Systems Performance: Enterprise and the Cloud, 2nd Edition (2020) by Brendan Gregg.
@@ -76,7 +76,7 @@ You can reach me via <a href="{{ site.links.email }}">mrschwartx@gmail.com</a> a
 
 <hr>
 
-<h4> Certifications</h4>
+<h4>🚀 Certifications</h4>
 {% for item in site.data.certifications %}
 <ul style="list-style:none; margin-top:0;margin-bottom:0;">
     <li><a href="{{ item.url }}" style="list-style: none; margin-left: 0; margin-top:0;margin-bottom:0;" target="_blank">{% include icons/link.html %} {{ item.title }}</a></li>
