@@ -27,7 +27,7 @@ You can reach me via <a href="{{ site.links.email }}">mrschwartx@gmail.com</a> a
 <hr>
 
 <h4>🔧Tech stack I'm familiar with</h4>
-<div>
+<div style="text-align: center;">
   {% for slug in site.data.skills.devIcons %}
     <img src="https://cdn.simpleicons.org/{{ slug }}/black" 
          style="margin: 4px; height: 30px; width: 30px;"
