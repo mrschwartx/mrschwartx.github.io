@@ -27,12 +27,13 @@ You can reach me via <a href="{{ site.links.email }}">mrschwartx@gmail.com</a> a
 <hr>
 
 <h4>🔧Tech stack I'm familiar with</h4>
-<div style="text-align: center;">
+<div style="text-align: justify;">
   {% for slug in site.data.skills.devIcons %}
-    <img src="https://cdn.simpleicons.org/{{ slug }}/black" 
+    <img src="https://cdn.simpleicons.org/{{ slug }}" 
          style="margin: 4px; height: 30px; width: 30px;"
+         class="tech-icon"
          onmouseover="this.src='https://cdn.simpleicons.org/{{ slug }}'"
-         onmouseout="this.src='https://cdn.simpleicons.org/{{ slug }}/black'" />
+         onmouseout="this.src='https://cdn.simpleicons.org/{{ slug }}'" />
   {% endfor %}
 </div>
 
